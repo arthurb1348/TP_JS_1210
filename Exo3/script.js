@@ -6,8 +6,8 @@ const resume = document.querySelector("#resume");
 
 const tags = [];
 
-form.addEventListener("submit", function(event) {
-    event.preventDefault();
+form.addEventListener("submit", function(e) {
+    e.preventDefault();
     const tag = txt.value.trim().toLowerCase();
     erreur.textContent = "";
 
