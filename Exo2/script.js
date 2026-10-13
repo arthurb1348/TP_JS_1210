@@ -11,7 +11,7 @@ btn.addEventListener("click", function() {
         btn.textContent = "Reprendre";
         btn.style.backgroundColor = "#505050";
     } else {
-        interval = setInterval(function () {
+        interval = setInterval(function() {
             time++;
             count.textContent = time;
         },1000)
